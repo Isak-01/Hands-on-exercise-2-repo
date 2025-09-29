@@ -62,6 +62,8 @@ def run_md():
     for i in range(20):
         dyn.run(10)
         printenergy(atoms)
+    
+    return(traj)
 
 if __name__ == "__main__":
     run_md()
